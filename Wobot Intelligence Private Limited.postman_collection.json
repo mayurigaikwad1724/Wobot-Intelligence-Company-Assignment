@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "8d5dc3e4-74a2-4147-8101-aa96f74e5804",
+		"name": "Wobot Intelligence Private Limited",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20427719"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\":\"gayatri\",\n    \"lastname\":\"shelke\",\n    \"email\":\"gayatri20@navgurukul.org\",\n    \"password\":\"Gayatri@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:4000/signup"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/post_data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"XYZ Laptop\",\n    \"description\":\"A latestlaptop\",\n    \"quantity\":\"15\",\n    \"price\":\"699\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:4000/post_data"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/get_signup",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\":\"khushboo\",\n    \"lastname\":\"kumari\",\n    \"email\":\"khushboo20@navgurukul.org\",\n    \"password\":\"Khushboo@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:4000/get_signup"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\":\"gayatri\",\n    \"lastname\":\"shelke\",\n    \"email\":\"gayatri20@navgurukul.org\",\n    \"password\":\"Gayatri@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:4000/login"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/post_data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"XYZ Laptop\",\n    \"description\":\"A latestlaptop\",\n    \"quantity\":\"15\",\n    \"price\":\"699\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:4000/post_data"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/get_post",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"XYZ Laptop\",\n    \"description\":\"A latestlaptop\",\n    \"quantity\":\"15\",\n    \"price\":\"699\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:4000/get_post"
+			},
+			"response": []
+		}
+	]
+}
